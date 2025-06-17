@@ -234,26 +234,66 @@ non-member users.
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Projects</h2>
-                    <ul>
-                    <li>
-                       <span class="project-title" onclick="toggleDetails('proj1')">Project 1: Music Booking System</span>
-                       <div id="proj1" class="project-details">
-                            A web app that allows users to book music events with real-time seat availability and payment integration.
-                      </div>
-                    </li>
-                    <li>
-                        <span class="project-title" onclick="toggleDetails('proj2')">Project 2: Distribution Management System</span>
-                        <div id="proj2" class="project-details">
-                             Developed design, coding, testing, and release for an ordering team system to track inventory and orders.
-                        </div>
-                     </li>
-                    <li>
-                       <span class="project-title" onclick="toggleDetails('proj3')">Project 3: Hotel Reservation System</span>
-                       <div id="proj3" class="project-details">
-                           Implemented reservation and discount rate calculation functionalities for an online hotel booking system.
-                      </div>
-                    </li>
-                    </ul>
+                    
+<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+
+  <!-- Project 1 -->
+  <div class="card">
+    <img src="assets/img/sevennow.png" alt="7 Now Android" />
+    <h5>Vending Machines & Inventory Management System</h5>
+    <div class="description">
+      <p>Developed a web-based application to manage vending machines leased to business clients. The system allows administrators to monitor inventory, track lease status, and assign machines for restocking and maintenance tasks. Key features include customer management, inventory tracking, lease management, and maintenance scheduling.</p>
+      <h6>Tasks</h6>
+      <ul>
+        <li>Designed a MySQL database with MQTT protocol to synchronize real-time product and pricing data from over 100 vending machines in Tokyo.</li>
+        <li>Developed and maintained 10 full-stack web pages using HTML, JavaScript, CSS, and AWS S3 for real-time system interactions.</li>
+        <li>Utilized the Contineo Framework to collect and publish sales metrics (price, units, location) to the warehouse system.</li>
+        <li>Authored a 20-page user manual to support the successful launch of vending machines in Japan.</li>
+      </ul>
+      <h6>Challenges</h6>
+      <p>While using Jetpack Compose, managing repeated API calls in a composable lifecycle was tricky; implemented DisposableEffect to handle cleanup and avoid unnecessary calls.</p>
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="card">
+    <img src="assets/img/hotelreservation.png" alt="Hotel Reservation System" />
+    <h5>Hotel Reservation System</h5>
+    <div class="description">
+      <p>Implemented a comprehensive hotel reservation platform allowing users to book rooms, apply discounts, and manage their bookings with ease.</p>
+      <h6>Tasks</h6>
+      <ul>
+        <li>Reservation Management: Developed modules to create, update, and cancel hotel bookings.</li>
+        <li>Discount Rate Calculation: Implemented business logic to calculate discounts based on seasonal offers and membership status.</li>
+        <li>Payment Integration: Integrated secure payment gateways to process online transactions.</li>
+        <li>Notification System: Sent email confirmations and reminders to users for upcoming stays.</li>
+        <li>UI Enhancements: Designed intuitive booking forms and calendar interfaces.</li>
+      </ul>
+      <h6>Challenges</h6>
+      <p>Handling concurrency issues to avoid double booking required careful database transaction management.</p>
+    </div>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="card">
+    <img src="assets/img/musicbooking.png" alt="Music Booking System" />
+    <h5>Music Booking System for Concerts</h5>
+    <div class="description">
+      <p>A web-based platform to book artists and manage concert schedules, allowing event organizers to coordinate bookings and manage payments efficiently.</p>
+      <h6>Tasks</h6>
+      <ul>
+        <li>Booking Management: Created interfaces for scheduling and approving artist bookings.</li>
+        <li>Payment Processing: Integrated online payment solutions to facilitate deposits and full payments.</li>
+        <li>Schedule Coordination: Built calendar views to manage event timelines and artist availability.</li>
+        <li>Reporting Tools: Developed reports on booking statuses and financial summaries for management.</li>
+        <li>User Roles & Permissions: Implemented role-based access for organizers, artists, and admins.</li>
+      </ul>
+      <h6>Challenges</h6>
+      <p>Ensuring real-time updates across multiple user roles required efficient WebSocket communication and state synchronization.</p>
+    </div>
+  </div>
+
+</div>
                 </div>
             </section>
         <hr class="m-0" />
