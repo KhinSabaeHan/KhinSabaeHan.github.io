@@ -30,7 +30,9 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
-   function toggleDetails(id) {
+   
+});
+function toggleDetails(id) {
     const detail = document.getElementById(id);
     if (detail.style.display === "block") {
       detail.style.display = "none";
@@ -38,4 +40,3 @@ window.addEventListener('DOMContentLoaded', event => {
       detail.style.display = "block";
     }
   }
-});
