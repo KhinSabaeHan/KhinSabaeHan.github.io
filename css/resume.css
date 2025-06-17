@@ -11433,15 +11433,3 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
-.project-title {
-    cursor: pointer;
-    color: #007bff;
-    text-decoration: underline;
-  }
-  .project-details {
-    display: none;
-    margin-top: 5px;
-    padding: 10px;
-    border-left: 3px solid #007bff;
-    background-color: #f9f9f9;
-  }
