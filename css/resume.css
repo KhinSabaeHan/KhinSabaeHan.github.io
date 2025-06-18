@@ -4517,6 +4517,18 @@ textarea.form-control-lg {
   flex-direction: column;
 }
 .card1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    flex-wrap: wrap; /* Enables responsive stacking on small screens */
+  }
+/*
+.card1 {
     text-align: center;
     margin: 10px;
     display: grid;
@@ -4531,7 +4543,7 @@ textarea.form-control-lg {
     position: relative;
     justify-items: center;
    flex-wrap: wrap;
-  }
+  } */
 
   .card1:hover {
     transform: translateY(-10px);
