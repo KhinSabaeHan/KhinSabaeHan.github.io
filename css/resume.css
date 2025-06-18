@@ -4518,52 +4518,56 @@ textarea.form-control-lg {
 }
 .card1 {
     display: flex;
-    align-items: flex-start;
-    gap: 20px;
+    flex-direction: row;
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 10px;
-    flex-wrap: wrap; /* Enables responsive stacking on small screens */
+    overflow: hidden;
+    margin: 20px;
+    flex-wrap: wrap; /* for mobile responsiveness */
   }
-/*
-.card1 {
-    text-align: center;
-    margin: 10px;
-    display: grid;
-    border-radius: 10px;
-    background: #fff;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
-    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), 
-                .3s box-shadow, 
-                .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
-    cursor: pointer;
+
+  .card1 .image-container {
+    flex: 1 1 40%;
+    max-width: 40%;
+  }
+
+  .card1 .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+
+  .card1 .description {
+    flex: 1 1 60%;
+    max-width: 60%;
     padding: 20px;
-    position: relative;
-    justify-items: center;
-   flex-wrap: wrap;
-  } */
+    box-sizing: border-box;
+  }
+
+  .card1 h5 {
+    margin-top: 0;
+  }
+
+  @media (max-width: 768px) {
+    .card1 {
+      flex-direction: column;
+    }
+
+    .card1 .image-container,
+    .card1 .description {
+      max-width: 100%;
+      flex: 1 1 100%;
+    }
+  }
 
   .card1:hover {
     transform: translateY(-10px);
     box-shadow: 0 12px 20px rgba(0, 0, 0, .12), 0 6px 6px rgba(0, 0, 0, .08);
   }
 
-  .card1 img {
-    width: 300px;
-    max-width: 100%;
-    border-radius: 10px;
-    object-fit: cover;
-  }
-
-  .card1 h5 {
-    margin: 10px 0 10px;
-  }
-.card1 .description {
-    flex: 1;
-    min-width: 250px;
-  }
+  
 
 /*  .card1 .description {
     font-size: 14px;
