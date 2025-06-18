@@ -4514,6 +4514,7 @@ textarea.form-control-lg {
   gap: 20px;
   justify-content: center;
   padding: 20px;
+  flex-direction: column;
 }
 .card1 {
     text-align: center;
