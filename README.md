@@ -1,74 +1,113 @@
-# [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/)
+👋 Hi, I'm Khin Sabae Han
 
-[Resume](https://startbootstrap.com/template-overviews/resume/) is a resume and CV theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
+I'm a passionate Software Developer with over 9 years of experience building full-stack web applications in industries like Order Management, Finance, and Logistics in Japan. I focus on developing scalable, maintainable, and user-friendly solutions using Java, C#, Spring, ASP.NET, React, and MySQL.
 
-## Preview
+🧠 About Me
 
-[![Resume Preview](https://startbootstrap.com/assets/img/templates/resume.jpg)](https://blackrockdigital.github.io/startbootstrap-resume/)
+💻 Full-stack developer with hands-on experience in both front-end and back-end technologies.
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-resume/)**
+🌍 Strong international experience in Japanese tech industry.
 
-## Status
+🤝 Team-oriented, fast learner, and committed to clean code.
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-resume/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-resume.svg)](https://www.npmjs.com/package/startbootstrap-resume)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-resume.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-resume)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-resume/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-resume)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-resume/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-resume?type=dev)
+📈 Mentor for junior developers in Myanmar.
 
-## Download and Installation
+💼 Experience
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/resume/)
-* Install via npm: `npm i startbootstrap-resume`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-resume.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-resume)
+🧾 Freelance Web Developer (Jul 2023 – Present)
 
-## Usage
+Developed eBook platform for non-member users using Java, Spring, Oracle, and React.
 
-### Basic Usage
+Mentored junior IT professionals in Myanmar.
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+🏢 Skillware Co., Ltd. (Jul 2022 – Apr 2023)
 
-### Advanced Usage
+Built full-stack web apps using JavaScript, CSS, HTML, and MQTT protocol.
 
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+Created user manuals and documentation.
 
-#### Gulp Tasks
+🏢 Persol Technology Staff Co., Ltd. (Mar 2020 – May 2022)
 
-- `gulp` the default task that builds everything
-- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
+Implemented Shell scripts and back-end features on Linux using Java, SQL, and Spring.
 
-You must have npm and Gulp installed globally on your machine in order to use these features.
+🏢 Nihon ITDJ Co., Ltd. (Jun 2014 – Dec 2019)
 
-## Troubleshooting and Help
+Developed 4+ full-stack web applications using Java Spring & C#.
 
-Start Bootstrap has a public Slack channel which is a great place to ask questions about this template and all things related to Start Bootstrap.
+Implemented unit testing and client-requested features.
 
-**[Click here to join the Slack channel!](https://startbootstrap-slack.herokuapp.com/)**
+🎓 Education
 
-## Bugs and Issues
+📘 Master (Thesis) in Computer Science – University of Computer Studies, Yangon
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-resume/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/resume/).
+🎓 Honor's and Bachelor's Degree in Computer Science
 
-## About
+💡 Diploma in MS .NET Programming
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+🧰 Skills
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
+Languages & Tools
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+Java · C# · JavaScript · HTML/CSS · React · Spring · ASP.NET · MySQL · Oracle · Linux · Git
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+Languages
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+Japanese · English · Myanmar
 
-## Copyright and License
+📂 Projects
 
-Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-resume/blob/gh-pages/LICENSE) license.
+🎵 Music Booking System
+
+Concert booking platform with REST API and front-end in React.
+
+🏨 Hotel Reservation System
+
+Added pricing logic and reservation modules using C# and SQL.
+
+📦 Distribution Management System
+
+Built core modules for order processing using Java and MySQL.
+
+🧊 Vending Machine Management
+
+MQTT-powered vending management with 100+ machines in Tokyo.
+
+🧾 FileNet Image Services
+
+Linux scripts and automated migration of image storage.
+
+🔍 Face Recognition System
+
+Automated airport gate control using biometric data.
+
+🏅 Rewards & Certifications
+
+🎖️ Microsoft .NET Programming Certified
+
+🧾 JLPT N2 – Japanese Language Proficiency
+
+🗣️ Duolingo English Test
+
+📜 Bachelor's Degree in Computer Science (Honors)
+
+🌟 Interests
+
+📚 Reading books on tech and culture
+
+🌍 Traveling and exploring new environments
+
+💡 Learning new programming tools and techniques
+
+🔗 Connect with Me
+
+🌐 Portfolio: https://khinsabaehan.github.io/
+
+💼 LinkedIn: linkedin.com/in/khinsabaehan
+
+🧾 GitHub: github.com/khinsabaehan
+
+📧 Email: khinsabaehan26@gmail.com
+
+📄 Download Resume
+
+Thank you for visiting my GitHub portfolio!
