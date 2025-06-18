@@ -4560,14 +4560,18 @@ textarea.form-control-lg {
   .card1 h5 {
     margin: 10px 0 10px;
   }
+.card1 .description {
+    flex: 1;
+    min-width: 250px;
+  }
 
-  .card1 .description {
+/*  .card1 .description {
     font-size: 14px;
     text-align: left;
-    max-height: none; /* show all */
+    max-height: none; 
     overflow: visible;
     margin-bottom: 15px;
-  }
+  } */
 
   .card1 ul {
     text-align: left;
